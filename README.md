@@ -1,4 +1,5 @@
 # graspnetAPI
+This fork adds compatibility updates for NumPy 1.24+ compared with the original graspnetAPI repository.
 [![PyPI version](https://badge.fury.io/py/graspnetAPI.svg)](https://badge.fury.io/py/graspnetAPI)
 
 ## Dataset
