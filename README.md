@@ -1,13 +1,15 @@
 # graspnetAPI
+
 This fork adds compatibility updates for NumPy 1.24+ compared with the original graspnetAPI repository.
-[![PyPI version](https://badge.fury.io/py/graspnetAPI.svg)](https://badge.fury.io/py/graspnetAPI)
 
 ## Dataset
 
 Visit the [GraspNet Website](http://graspnet.net) to get the dataset.
 
 ## Install
+
 You can install using pip. (Note: The pip version might be old, install from the source is recommended.)
+
 ```bash
 pip install graspnetAPI
 ```
@@ -22,10 +24,11 @@ pip install .
 
 ## Document
 
-Refer to [online document](https://graspnetapi.readthedocs.io/en/latest/index.html) for more details.  
-[PDF Document](https://graspnetapi.readthedocs.io/_/downloads/en/latest/pdf/) is available, too. 
+Refer to [online document](https://graspnetapi.readthedocs.io/en/latest/index.html) for more details.
+[PDF Document](https://graspnetapi.readthedocs.io/_/downloads/en/latest/pdf/) is available, too.
 
 You can also build the doc manually.
+
 ```bash
 cd docs
 pip install -r requirements.txt
@@ -35,13 +38,15 @@ bash build_doc.sh
 LaTeX is required to build the pdf, but html can be built anyway.
 
 ## Grasp Definition
-The frame of our gripper is defined as 
+
+The frame of our gripper is defined as
+
 <div align="center">
     <img src="grasp_definition.png", width="400">
 </div>
 
-
 ## Examples
+
 ```bash
 cd examples
 
@@ -62,7 +67,9 @@ python3 exam_check_data.py
 Please refer to our document for more examples.
 
 ## Citation
+
 Please cite these papers in your publications if it helps your research:
+
 ```
 @article{fang2023robust,
   title={Robust grasping across diverse sensor qualities: The GraspNet-1Billion dataset},
